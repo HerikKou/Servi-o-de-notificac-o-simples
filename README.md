@@ -41,7 +41,9 @@ O projeto foca em resolver desafios reais de comunicação assíncrona, como a s
 
 - Na raiz do projeto, execute o comando para subir toda a infraestrutura e os serviços:
 
-   **docker-compose up --build**
+  - <img width="207" height="32" alt="image" src="https://github.com/user-attachments/assets/d6afa0ee-a029-4ff2-85ca-5be9838f07aa" />
+
+
 
 # Endpoints
 
@@ -50,6 +52,16 @@ Producer (API): http://localhost:8080/notificacao/testekafka
 
 Consumer (Listener): http://localhost:8081 (Disponível apenas para inspeção, não possui endpoints externos).
 
+
+# Entrada e Saida
+
+**Entrada:**
+
+<img width="292" height="117" alt="Captura de tela 2025-11-07 214204" src="https://github.com/user-attachments/assets/2df9155b-2d6b-4af5-a33b-8d736808968b" />
+
+**Saida:**
+
+<img width="540" height="27" alt="Captura de tela 2025-11-07 214300" src="https://github.com/user-attachments/assets/9fdec63f-3d37-4ad6-a80a-bf69716641cb" />
 
 
 
