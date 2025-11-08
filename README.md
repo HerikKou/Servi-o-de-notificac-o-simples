@@ -1,7 +1,7 @@
 ﻿# Serviço-de-notificacão-simples com Kafka
 ---
 # 🎯 Objetivo do Projeto
-O principal objetivo deste projeto é aplicar os conhecimentos teóricos sobre Apache Kafka em uma arquitetura de microsserviços. O projeto simula o ciclo de vida completo de uma notificação:
+O principal objetivo deste projeto é aplicar os conhecimentos teóricos sobre Apache Kafka na prática.
 
 **- Produtor (producer-notificacao)->** Recebe o evento, persiste o registro no MySQL (garantindo durabilidade) e, em seguida, envia a mensagem de forma assíncrona para o tópico do Kafka.
 
@@ -49,6 +49,7 @@ Producer (API): http://localhost:8080/notificacao/testekafka
 
 
 Consumer (Listener): http://localhost:8081 (Disponível apenas para inspeção, não possui endpoints externos).
+
 
 
 
